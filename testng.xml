@@ -1,0 +1,19 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="AllTests">
+  <test name="all_tests"   >
+<!--
+    <packages>
+      <package name="test.rest_udemy" />
+   </packages>
+-->
+    <classes>
+      <class name="rest_udemy.get_places"/>
+      <class name="rest_udemy.add_delete_place_json"/>
+      <class name="rest_udemy.add_delete_place_xml"/>
+      <class name="twitter_add_delete_tweet"/>
+      <class name="twitter_get_tweets"/>
+    </classes>
+
+ </test>
+</suite>
+
